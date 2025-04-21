@@ -1,0 +1,60 @@
+.wish-form {
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.wish-form h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 16px;
+  color: #444;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #3498db; /* Màu viền xanh dương */
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #2980b9; /* Màu viền khi focus xanh đậm */
+  outline: none;
+}
+
+.submit-button {
+  background-color: #3498db; /* Nền button xanh dương */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #2980b9; /* Màu button khi hover xanh đậm */
+}

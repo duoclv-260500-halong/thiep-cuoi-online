@@ -1,0 +1,14 @@
+.banner-slide {
+  width: 100%;
+  height: 100vh; /* full màn hình */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-full {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
