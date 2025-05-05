@@ -1,6 +1,6 @@
 .wish-form {
   padding: 40px;
-  background-color: #fff;
+  background-color: #fff0f6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-top: 40px;
@@ -11,8 +11,9 @@
 }
 
 .wish-form h2 {
+  color: #d63384;
+  font-family: 'Dancing Script', cursive;
   font-size: 26px;
-  color: #333;
   margin-bottom: 20px;
 }
 
@@ -33,19 +34,19 @@
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #3498db; /* Màu viền xanh dương */
+  border: 1px solid #cc6b9c; /* Màu viền xanh dương */
   border-radius: 5px;
   margin-top: 5px;
 }
 
 .input-group input:focus,
 .input-group textarea:focus {
-  border-color: #2980b9; /* Màu viền khi focus xanh đậm */
+  border-color: #d63384; /* Màu viền khi focus xanh đậm */
   outline: none;
 }
 
 .submit-button {
-  background-color: #3498db; /* Nền button xanh dương */
+  background-color: #d63384; /* Nền button xanh dương */
   color: white;
   border: none;
   padding: 12px 20px;
@@ -56,5 +57,5 @@
 }
 
 .submit-button:hover {
-  background-color: #2980b9; /* Màu button khi hover xanh đậm */
+  background-color: #d63384; /* Màu button khi hover xanh đậm */
 }

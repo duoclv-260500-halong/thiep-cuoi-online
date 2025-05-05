@@ -9,10 +9,12 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .profile {
   max-width: 45%;
+  width: -webkit-fill-available;
   margin: 10px;
   background: #f9f9f9;
   border-radius: 10px;
@@ -46,10 +48,16 @@
 }
 
 .profile-info p {
-  font-size: 1rem;
-  color: #555;
+  color: rgb(255, 0, 0, 0.6);
   margin-top: 10px;
   line-height: 1.5;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.profile-info p:nth-child(odd) {
+  text-align: right;
 }
 
 @media (max-width: 768px) {

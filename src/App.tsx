@@ -11,10 +11,12 @@ import WeddingDate from "./components/WeddingDate";
 import WeddingLocation from "./components/WeddingLocation";
 import WishForm from "./components/WishForm";
 import WeddingGift from "./components/WeddingGift";
+import Invitation from "./components/Invitation";
 
 function App() {
   return (
     <div className="App" style={{ maxWidth: '900px', textAlign: 'center', margin: '0 auto' }}>
+      <Invitation />
       <Banner />
       <Introduction />
       <LoveStory />
@@ -22,7 +24,7 @@ function App() {
       <WeddingAlbum />
       <WeddingLocation />
       <WishForm />
-      <PrivateQuestions />
+      {/* <PrivateQuestions /> */}
       <WeddingGift />
       <MusicPlayer />
       <FloatSocialButtons />

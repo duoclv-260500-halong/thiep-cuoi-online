@@ -13,7 +13,7 @@ const WishForm: React.FC = () => {
 
   return (
     <div className="wish-form">
-      <h2>Lời chúc của bạn</h2>
+      <h2>💌 Lời chúc của bạn</h2>
       <form onSubmit={handleSubmit}>
         <div className="input-group">
           <label htmlFor="name">Họ và tên</label>
@@ -23,7 +23,7 @@ const WishForm: React.FC = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
-            placeholder="Nhập họ tên"
+            placeholder="Họ và tên"
           />
         </div>
         <div className="input-group">
@@ -34,7 +34,7 @@ const WishForm: React.FC = () => {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             required
-            placeholder="Nhập số điện thoại"
+            placeholder="Số điện thoại"
           />
         </div>
         <div className="input-group">
@@ -44,7 +44,7 @@ const WishForm: React.FC = () => {
             value={wish}
             onChange={(e) => setWish(e.target.value)}
             required
-            placeholder="Nhập lời chúc của bạn"
+            placeholder="Lời chúc của bạn"
           />
         </div>
         <button type="submit" className="submit-button">Gửi lời chúc</button>

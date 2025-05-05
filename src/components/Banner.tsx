@@ -7,10 +7,26 @@ const Banner: React.FC = () => {
     <div className="banner-wrapper">
       <Carousel autoplay effect="scrollx" dots={false}>
         <div className="banner-slide">
-          <img src={require('../assets/bride.jpg')} alt="Bride" className="" />
+          <img src={require('../assets/banner1.jpg')} alt="Bride" className="" style={{
+            maxWidth: '100%',
+            maxHeight: '100%',
+            width: 'auto',
+            height: 'auto',
+            objectFit: 'cover',
+            objectPosition: 'center',
+          }}/>
         </div>
         <div className="banner-slide">
-          <img src={require('../assets/groom.jpg')} alt="Groom" className="" />
+          <img src={require('../assets/banner2.jpg')} alt="Groom" className="" 
+          style={{
+            maxWidth: '100%',
+            maxHeight: '100%',
+            width: 'auto',
+            height: 'auto',
+            objectFit: 'cover',
+            objectPosition: 'center',
+          }}
+          />
         </div>
       </Carousel>
     </div>
