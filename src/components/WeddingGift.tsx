@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Modal, Button, Image } from "antd";
 import "./WeddingGift.css";
-
 const WeddingGift: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -25,7 +24,7 @@ const WeddingGift: React.FC = () => {
 
       <Modal
         title="Thông Tin Mừng Cưới"
-        visible={isModalOpen}
+        open={isModalOpen}
         onCancel={closeModal}
         footer={null}
         className="wedding-gift-modal"
@@ -34,7 +33,7 @@ const WeddingGift: React.FC = () => {
           <div className="wedding-gift-method">
             <h3>Chuyển khoản ngân hàng:</h3>
             <p>Chủ tài khoản: LE VAN DUOC</p>
-            <p>Số tài khoản: 0931004219170</p>
+            <p>Số tài khoản: 0931 0042 19170</p>
             <p>Ngân hàng: Vietcombank</p>
             <p>Để lại nội dung chúc phúc cho đôi trẻ nhé</p>
           </div>
@@ -49,6 +48,13 @@ const WeddingGift: React.FC = () => {
                 className="qr-code"
               />
             </div>
+          </div>
+          <div className="wedding-gift-method">
+            <h3>Chuyển khoản ngân hàng:</h3>
+            <p>Chủ tài khoản: DO THI QUYEN</p>
+            <p>Số tài khoản: 1903 8207 343 011</p>
+            <p>Ngân hàng: Techcombank</p>
+            <p>Để lại nội dung chúc phúc cho đôi trẻ nhé</p>
           </div>
         </div>
         <div style={{ width: "100%", textAlign: "right" }}>

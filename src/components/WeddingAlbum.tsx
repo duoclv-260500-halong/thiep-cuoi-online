@@ -30,19 +30,7 @@ const images = [
   //@ts-ignore
   require("../assets/anhcuoi13.jpg"),
   //@ts-ignore
-  require("../assets/anhcuoi14.jpg"),
-  //@ts-ignore
-  require("../assets/anhcuoi15.jpg"),
-  //@ts-ignore
-  require("../assets/anhcuoi16.jpg"),
-  //@ts-ignore
-  require("../assets/anhcuoi17.jpg"),
-  //@ts-ignore
   require("../assets/anhcuoi18.jpg"),
-  //@ts-ignore
-  require("../assets/anhcuoi19.jpg"),
-  //@ts-ignore
-  require("../assets/anhcuoi20.jpg"),
   //@ts-ignore
   require("../assets/anhcuoi21.jpg"),
 ];
@@ -72,6 +60,9 @@ const WeddingAlbum: React.FC = () => {
         footer={null}
         width={"80%"}
         closable={false}
+        style={{
+          maxWidth: "600px",
+        }}
       >
         <img
           src={images[currentImage]}
@@ -82,6 +73,7 @@ const WeddingAlbum: React.FC = () => {
             margin: "auto",
             maxWidth: "100%",
             objectFit: "cover",
+            maxHeight: "550px",
           }}
         />
       </Modal>

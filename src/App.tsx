@@ -19,10 +19,10 @@ function App() {
       <Invitation />
       <Banner />
       <Introduction />
-      <LoveStory />
       <WeddingDate />
-      <WeddingAlbum />
+      <LoveStory />
       <WeddingLocation />
+      <WeddingAlbum />
       {/* <WishForm /> */}
       {/* <PrivateQuestions /> */}
       <WeddingGift />

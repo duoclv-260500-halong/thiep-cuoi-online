@@ -2,10 +2,11 @@
   text-align: center;
   padding: 60px 20px;
   background-color: #fef6f9;
+  border-radius: 10px;
 }
 
 .wedding-invite {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Playwrite DK Loopet', cursive;
   font-size: 36px;
   color: #e91e63;
   margin-bottom: 12px;

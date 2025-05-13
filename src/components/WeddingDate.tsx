@@ -7,9 +7,9 @@ const WeddingDate: React.FC = () => {
 
   return (
     <div className="wedding-date-container">
-      <h2 className="wedding-invite">Chúng mình sắp cưới rồi!</h2>
+      <h2 className="wedding-invite">Chúng mình sắp về một nhà rồi!</h2>
       <p className="wedding-message">
-        Sự hiện diện của bạn là niềm vinh hạnh và niềm vui lớn với gia đình chúng tôi 💖
+        Sự hiện diện của quý khách là niềm vinh hạnh và niềm vui lớn với gia đình chúng tôi 💖
       </p>
 
       <div className="calendar">

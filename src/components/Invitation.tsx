@@ -4,7 +4,7 @@ import "./Invitation.css";
 const getInviteeName = () => {
   const params = new URLSearchParams(window.location.search);
   const name = params.get("to");
-  return name ? decodeURIComponent(name) : "Quý khách và Gia đình";
+  return name ? decodeURIComponent(name) : "Chú/Bác/Anh/Chị/Bạn";
 };
 
 const getObjectName = () => {
@@ -13,7 +13,7 @@ const getObjectName = () => {
   const nameDecoded = decodeURIComponent(name ?? "");
   if (nameDecoded === "1") return "con chúng tôi";
   if (nameDecoded === "2") return "vợ chồng chúng tôi";
-  return "con chúng tôi";
+  return "Cháu/Em/Mình";
 };
 
 const Invitation: React.FC = () => {
