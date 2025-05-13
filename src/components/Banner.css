@@ -1,7 +1,6 @@
 .banner-slide {
   width: 90%;
   max-width: 90%;
-  height: 100vh; /* full màn hình */
   overflow: hidden;
   display: flex !important;
   justify-content: center;
