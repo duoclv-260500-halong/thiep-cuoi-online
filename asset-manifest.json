@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/thiep-cuoi-online/static/css/main.0e686ca9.css",
+    "main.js": "/thiep-cuoi-online/static/js/main.fc797ecb.js",
+    "static/js/453.79e5a187.chunk.js": "/thiep-cuoi-online/static/js/453.79e5a187.chunk.js",
+    "static/media/I DO.mp3": "/thiep-cuoi-online/static/media/I DO.e631ab641675ed70db72.mp3",
+    "static/media/lecuoichure.webp": "/thiep-cuoi-online/static/media/lecuoichure.21017f202e8fa20d8c5b.webp",
+    "static/media/banner2.jpg": "/thiep-cuoi-online/static/media/banner2.4e20389a695bea923e2c.jpg",
+    "static/media/banner1.jpg": "/thiep-cuoi-online/static/media/banner1.d762c779da2782b01bc7.jpg",
+    "static/media/lecuoicodau.webp": "/thiep-cuoi-online/static/media/lecuoicodau.06aa05da90a4b7e8c031.webp",
+    "static/media/anhcuoi1.jpg": "/thiep-cuoi-online/static/media/anhcuoi1.f221870a4b03d6ab2e2c.jpg",
+    "static/media/codau.jpg": "/thiep-cuoi-online/static/media/codau.3cd473ded42bba02437e.jpg",
+    "static/media/chure.jpg": "/thiep-cuoi-online/static/media/chure.c67efc899dd115ee5694.jpg",
+    "static/media/anhcuoi4.jpg": "/thiep-cuoi-online/static/media/anhcuoi4.bfee1a02c7269d563c99.jpg",
+    "static/media/QR.png": "/thiep-cuoi-online/static/media/QR.3a52bbd0e23d4404a970.png",
+    "static/media/anhcuoi3.jpg": "/thiep-cuoi-online/static/media/anhcuoi3.9d117a950de035765a6a.jpg",
+    "static/media/anhcuoi5.jpg": "/thiep-cuoi-online/static/media/anhcuoi5.c7431187a759a9ac35f0.jpg",
+    "static/media/anhcuoi2.jpg": "/thiep-cuoi-online/static/media/anhcuoi2.26ef4da7763368068d38.jpg",
+    "index.html": "/thiep-cuoi-online/index.html",
+    "static/media/decor-border.svg": "/thiep-cuoi-online/static/media/decor-border.7eb4812f8018d4bfa5cd.svg",
+    "main.0e686ca9.css.map": "/thiep-cuoi-online/static/css/main.0e686ca9.css.map",
+    "main.fc797ecb.js.map": "/thiep-cuoi-online/static/js/main.fc797ecb.js.map",
+    "453.79e5a187.chunk.js.map": "/thiep-cuoi-online/static/js/453.79e5a187.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e686ca9.css",
+    "static/js/main.fc797ecb.js"
+  ]
+}
