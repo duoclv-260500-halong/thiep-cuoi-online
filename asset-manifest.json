@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/thiep-cuoi-online/static/css/main.0e686ca9.css",
+    "main.css": "/thiep-cuoi-online/static/css/main.eefc27a3.css",
     "main.js": "/thiep-cuoi-online/static/js/main.fc797ecb.js",
     "static/js/453.79e5a187.chunk.js": "/thiep-cuoi-online/static/js/453.79e5a187.chunk.js",
     "static/media/I DO.mp3": "/thiep-cuoi-online/static/media/I DO.e631ab641675ed70db72.mp3",
@@ -18,12 +18,12 @@
     "static/media/anhcuoi2.jpg": "/thiep-cuoi-online/static/media/anhcuoi2.26ef4da7763368068d38.jpg",
     "index.html": "/thiep-cuoi-online/index.html",
     "static/media/decor-border.svg": "/thiep-cuoi-online/static/media/decor-border.7eb4812f8018d4bfa5cd.svg",
-    "main.0e686ca9.css.map": "/thiep-cuoi-online/static/css/main.0e686ca9.css.map",
+    "main.eefc27a3.css.map": "/thiep-cuoi-online/static/css/main.eefc27a3.css.map",
     "main.fc797ecb.js.map": "/thiep-cuoi-online/static/js/main.fc797ecb.js.map",
     "453.79e5a187.chunk.js.map": "/thiep-cuoi-online/static/js/453.79e5a187.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e686ca9.css",
+    "static/css/main.eefc27a3.css",
     "static/js/main.fc797ecb.js"
   ]
 }
