@@ -25,7 +25,7 @@ const HeartFloating: React.FC = () => {
       heart.style.animationDuration = `${4 + Math.random() * 3}s`;
 
       container.appendChild(heart);
-      if (container.children.length > 20) {
+      if (container.children.length > 12) {
         container.removeChild(container.firstChild!);
       }
       heart.addEventListener('animationend', () => {

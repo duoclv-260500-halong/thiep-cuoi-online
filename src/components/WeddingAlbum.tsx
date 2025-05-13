@@ -76,7 +76,13 @@ const WeddingAlbum: React.FC = () => {
         <img
           src={images[currentImage]}
           alt={`Wedding ${currentImage + 1}`}
-          style={{ width: "100%", height: "auto" }}
+          style={{
+            height: "80vh",
+            display: "flex",
+            margin: "auto",
+            maxWidth: "100%",
+            objectFit: "cover",
+          }}
         />
       </Modal>
     </div>
