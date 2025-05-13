@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Modal, Button, Image } from 'antd';
-import './WeddingGift.css';
+import React, { useState } from "react";
+import { Modal, Button, Image } from "antd";
+import "./WeddingGift.css";
 
 const WeddingGift: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -15,7 +15,11 @@ const WeddingGift: React.FC = () => {
 
   return (
     <section className="wedding-gift-section">
-      <Button type="primary" onClick={openModal} className="wedding-gift-toggle">
+      <Button
+        type="primary"
+        onClick={openModal}
+        className="wedding-gift-toggle"
+      >
         Xem Thông Tin Mừng Cưới
       </Button>
 
@@ -36,13 +40,21 @@ const WeddingGift: React.FC = () => {
           </div>
           <div className="wedding-gift-qr wedding-gift-method">
             <h3>Quét mã QR để chuyển khoản:</h3>
-            <div style={{ width: '100%', textAlign: 'center' }}>
-              <Image width={300} src={require('../assets/QR.png')} alt="QR Code" className="qr-code" />
+            <div style={{ width: "100%", textAlign: "center" }}>
+              <Image
+                width={300}
+                //@ts-ignore
+                src={require("../assets/QR.png")}
+                alt="QR Code"
+                className="qr-code"
+              />
             </div>
           </div>
         </div>
-        <div style={{ width: '100%', textAlign: 'right' }}>
-          <Button onClick={closeModal} className="close-modal">Đóng</Button>
+        <div style={{ width: "100%", textAlign: "right" }}>
+          <Button onClick={closeModal} className="close-modal">
+            Đóng
+          </Button>
         </div>
       </Modal>
     </section>

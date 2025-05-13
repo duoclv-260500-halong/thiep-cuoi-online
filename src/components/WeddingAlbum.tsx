@@ -1,28 +1,48 @@
-import React from 'react';
-import './WeddingAlbum.css';
+import React from "react";
+import "./WeddingAlbum.css";
 
 const WeddingAlbum: React.FC = () => {
   const images = [
-    require('../assets/anhcuoi1.jpg'),
-    require('../assets/anhcuoi2.jpg'),
-    require('../assets/anhcuoi3.jpg'),
-    require('../assets/anhcuoi4.jpg'),
-    require('../assets/anhcuoi1.jpg'),
-    require('../assets/anhcuoi5.jpg'),
-    require('../assets/anhcuoi2.jpg'),
-    require('../assets/anhcuoi3.jpg'),
-    require('../assets/anhcuoi4.jpg'),
-    require('../assets/anhcuoi5.jpg'),
-    require('../assets/anhcuoi5.jpg'),
-    require('../assets/anhcuoi2.jpg'),
-    require('../assets/anhcuoi3.jpg'),
-    require('../assets/anhcuoi4.jpg'),
-    require('../assets/anhcuoi5.jpg'),
-    require('../assets/anhcuoi5.jpg'),
-    require('../assets/anhcuoi2.jpg'),
-    require('../assets/anhcuoi3.jpg'),
-    require('../assets/anhcuoi4.jpg'),
-    require('../assets/anhcuoi5.jpg'),
+    //@ts-ignore
+    require("../assets/anhcuoi1.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi2.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi3.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi4.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi1.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi5.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi2.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi3.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi4.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi5.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi5.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi2.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi3.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi4.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi5.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi5.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi2.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi3.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi4.jpg"),
+    //@ts-ignore
+    require("../assets/anhcuoi5.jpg"),
   ];
 
   return (

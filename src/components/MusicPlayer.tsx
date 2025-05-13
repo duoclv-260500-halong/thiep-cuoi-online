@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { FaVolumeUp, FaVolumeMute } from "react-icons/fa";
 
-import './MusicPlayer.css';
+import "./MusicPlayer.css";
 
 const MusicPlayer: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -19,9 +19,16 @@ const MusicPlayer: React.FC = () => {
   return (
     <>
       <audio ref={audioRef} loop>
-        <source src={require('../assets/I DO.mp3')} type="audio/mp3" />
+        <source
+          //@ts-ignore
+          src={require("../assets/I DO.mp3")}
+          type="audio/mp3"
+        />
       </audio>
-      <button className={`music-button ${isPlaying ? 'playing' : ''}`} onClick={toggleMusic}>
+      <button
+        className={`music-button ${isPlaying ? "playing" : ""}`}
+        onClick={toggleMusic}
+      >
         {isPlaying ? <FaVolumeUp /> : <FaVolumeMute />}
       </button>
     </>

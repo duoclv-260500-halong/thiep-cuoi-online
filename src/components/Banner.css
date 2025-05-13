@@ -1,10 +1,17 @@
 .banner-slide {
-  width: 100%;
+  width: 90%;
+  max-width: 90%;
   height: 100vh; /* full màn hình */
   overflow: hidden;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
+  margin: auto;
+}
+
+.banner-slide img {
+  border-radius: 10px;
+  max-width: 90%;
 }
 
 .banner-full {

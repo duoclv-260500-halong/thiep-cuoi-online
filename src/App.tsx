@@ -23,7 +23,7 @@ function App() {
       <WeddingDate />
       <WeddingAlbum />
       <WeddingLocation />
-      <WishForm />
+      {/* <WishForm /> */}
       {/* <PrivateQuestions /> */}
       <WeddingGift />
       <MusicPlayer />
